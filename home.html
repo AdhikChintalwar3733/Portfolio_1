@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="home.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.0/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <style>
+        @media (max-width:270px) {
+            #container1 {
+                height: auto;
+                font-size: 10px;
+            }
+
+            #grid {
+                height: auto;
+                width: auto;
+                font-size: larger;
+                justify-self: center;
+
+            }
+
+            #grid-box {
+                padding: 8%;
+            }
+
+            #container2 {
+                justify-content: space-around;
+
+            }
+        }
+
+        @media (max-width:450px) {
+            #container1 {
+                height: auto;
+                font-size: 10px;
+            }
+
+            #grid {
+                height: auto;
+                width: auto;
+                font-size: 10px;
+                justify-self: center;
+
+            }
+
+            #grid-box {
+                padding: 8%;
+            }
+
+            #container2 {
+                justify-content: space-around;
+
+            }
+        }
+
+        @media (max-width:600px) {
+            #container1 {
+                height: auto;
+                font-size: 15px;
+            }
+
+            #grid {
+                height: auto;
+                width: auto;
+                font-size: 15px;
+                justify-self: center;
+            }
+
+            #grid-box {
+                padding: 8%;
+            }
+
+            #container2 {
+                justify-content: space-around;
+
+            }
+
+        }
+
+        @media (max-width:800px) {
+            #container1 {
+                height: auto;
+                font-size: 20px;
+            }
+
+            #grid {
+                height: auto;
+                width: auto;
+                font-size: 20px;
+                justify-self: center;
+
+            }
+
+            #grid-box {
+                padding: 8%;
+            }
+
+            #container2 {
+                justify-content: space-around;
+
+            }
+        }
+
+        @media (max-width:900px) {
+            #container1 {
+                height: auto;
+                font-size: 25px;
+            }
+
+            #container2 {
+                justify-content: space-around;
+
+            }
+
+            #grid-box {
+                padding: 7%;
+            }
+
+            #grid {
+                height: auto;
+                width: auto;
+                font-size: 25px;
+                justify-self: center;
+
+            }
+
+            .gradient-custom {
+                /* fallback for old browsers */
+                background: #7b797e;
+
+                /* Chrome 10-25, Safari 5.1-6 */
+                background: -webkit-linear-gradient(45deg,
+                        rgba(100, 104, 103, 0.6),
+                        rgba(113, 111, 116, 0.6) 100%);
+
+                /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                background: linear-gradient(45deg,
+                        rgba(109, 114, 113, 0.6),
+                        rgba(113, 110, 116, 0.6) 100%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header" class="d-flex flex-column justify-content-center">
+
+        <nav id="navbar" class="navbar nav-menu">
+            <ul>
+                <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i><span>Home</span></a>
+                </li>
+                <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+                <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i><span>Resume</span></a>
+                </li>
+                <li><a href="#portfolio" class="nav-link scrollto"><i
+                            class="bx bx-book-content"></i><span>Portfolio</span></a></li>
+                <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i><span>Services</span></a>
+                </li>
+                <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a>
+                </li>
+            </ul>
+        </nav><!-- .nav-menu -->
+
+    </header><!-- End Header -->
+    <!-- <nav class="navbar navbar-inverse navbar-fixed-top  " id="navbar_fixed">
+        <ul class="nav nav-pills nav-stacked" id="navbar">
+            <li><a href="#section1">Section 1</a></li>
+        </ul>
+    </nav> -->
+    <section id="hero" class="d-flex flex-column justify-content-center  bg-image">
+        <div class="container gradient-custom">
+            <h1 class="text-white">Adhik Chintalwar</h1>
+            <p class="text-white">I'm <span class="typed" data-typed-items="Designer, Developer"></span></p>
+            <!-- <div class="social-links" id="social-links">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- <div class="" style="background-color:white">
+         <div class="mask gradient-custom">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <h1 class="text-white mb-0">Page title</h1>
+            </div>
+          </div> -->
+    <!-- <div class="bg-image" id="container1">
+            <div class="   mask gradient-custom h-100">
+                <div  class="d-flex justify-content-center align-items-center h-100">
+                    <h1  class="text-dark mb-0"  ><b>Adhik Chintalwar</b></h1>
+                    <br>
+                    <p class="text-white mb-0">Full Stack Developer</p>
+                    
+                </div>
+
+            </div>
+
+        </div> -->
+
+
+    <!--  -->
+
+    <!-- About Me -->
+    <div style="height: 100vh;" id="about" class="container-fluid">
+        <div class="row  " style="height: 100%;width: 100%;justify-self: center;padding: 40px;">
+            <div class="col h-100 bg-secondary">
+                <div class="row bg-image"
+                    style="background: url('./images/profile-img.jpg');height:50%;width: auto;background-repeat: no-repeat;background-size:contain;">
+                </div>
+
+                <div class="row" style="height: 10%;">
+
+                    <p class="" style="height:max-content;font-size: xx-large;">Skills</p>
+                </div>
+                <div class="row  " id="skills" style="align-items: center;height: 40%;">
+                    <div class=" col align-items-center " style="height:100%">
+                        <p> <b>JAVASCRIPT</b></p>
+                        <div class="progress m-4 w-80 ">
+                            <div class="progress-bar w-25" role="progressbar" aria-valuenow="25" aria-valuemax="100"
+                                aria-valuemin="0"> </div>
+                        </div>
+                        <p><b>C++</b></p>
+                        <div class="progress m-4 w-80">
+                            <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemax="100"
+                                aria-valuemin="0"> </div>
+                        </div>
+                        <p><b>CSS</b></p>
+                        <div class="progress m-4 w-80">
+                            <div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemax="100"
+                                aria-valuemin="0"> </div>
+                        </div>
+                    </div>
+                    <div class=" col justify-items-center  align-items-center"
+                        style="align-content: center;height:100%;">
+                        <p><b>HTML5</b></p>
+                        <div class="progress m-4 w-80">
+                            <div class="progress-bar w-25" role="progressbar" aria-valuenow="25" aria-valuemax="100"
+                                aria-valuemin="0"> </div>
+                        </div>
+                        <p><b>BOOTSTRAP5</b></p>
+                        <div class="progress m-4 w-80">
+                            <div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemax="100"
+                                aria-valuemin="0"> </div>
+                        </div>
+                        <p><b>Python</b></p>
+                        <div class="progress m-4 w-80">
+                            <div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemax="100"
+                                aria-valuemin="0"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col  bg-primary h-100 d-flex align-content-center" style="flex-direction: column;justify-content:center;">
+                <!-- <div class="h-100" style="padding: 20px;display:flexbox;align-content: space-around;">
+                    <div style="height: auto; display: flexbox;">
+                        <p style="font-size: xx-large; text-align: center;;">About Me</p>
+                    </div>
+                    <div style="height: auto;display: flexbox;">
+                        <p style="font-size: x-large;"><b>> Name :</b><span style="font-size:smaller;">Adhik
+                                Chintalwar</span>
+                        </p>
+                        <p style="font-size: x-large;"><b>> Profile :</b><span style="font-size:smaller;">Web
+                                Developer</span>
+                        </p>
+                        <p style="font-size: x-large;"><b>> Email :</b><span
+                                style="font-size:smaller;">adhikchintalwar12@gmail.com</span></p>
+                        <p style="font-size: x-large;"><b>> Phone :</b><span
+                                style="font-size:smaller;">6302072720</span>
+                        </p>
+                    </div>
+                    <div class="bg-warning" style="height: 50%;">
+                        <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat,
+                            accumsan
+                            id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec,
+                            egestas
+                            non nisi. Nulla porttitor accumsan tincidunt.
+
+                            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget
+                            felis
+                            porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+                            porttitor at sem.
+                            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget
+                            felis
+                            porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+                            porttitor
+                            at sem.
+
+                            Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id
+                            enim.
+                            Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh
+                            pulvinar a.
+                        </p>
+                    </div> -->
+
+                  <p style="font-size: xx-large; text-align: center;;">About Me</p>
+
+
+                    <p style="font-size: x-large;"><b>> Name :</b><span style="font-size:smaller;">Adhik
+                            Chintalwar</span>
+                    </p>
+                    <p style="font-size: x-large;"><b>> Profile :</b><span style="font-size:smaller;">Web
+                            Developer</span>
+                    </p>
+                    <p style="font-size: x-large;"><b>> Email :</b><span
+                            style="font-size:smaller;">adhikchintalwar12@gmail.com</span></p>
+                    <p style="font-size: x-large;"><b>> Phone :</b><span style="font-size:smaller;">6302072720</span>
+                    </p>
+
+
+                    <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat,
+                        accumsan
+                        id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec,
+                        egestas
+                        non nisi. Nulla porttitor accumsan tincidunt.
+
+                        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget
+                        felis
+                        porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+                        porttitor at sem.
+                        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget
+                        felis
+                        porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+                        porttitor
+                        at sem.
+
+                        Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id
+                        enim.
+                        Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh
+                        pulvinar a.
+                    </p> 
+
+ 
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+
+
+
+    <!-- Development Skills -->
+
+    <!-- ..................................................... -->
+    <!-- Services -->
+    <div class="" id="services">
+        <!-- <div class=" " id="contact_info">
+            <p class="" style="font-size: xx-large;"><b>Contact</b></p>
+            <p>adhikchintalwar12@gmail.com</p>
+            <p>6302072720</p>
+        </div> -->
+        <p style="text-align: center;font-size: xx-large;"><b>What I do?</b></p>
+        <div class="row align-items-center" id="grid-box">
+
+            <div class="col-sm-2 text-light hover-shadow align-items-center justify-content-center" id="grid">
+                <p>Free Lancer</p>
+            </div>
+            <div class="col-sm-2 text-light hover-shadow align-items-center justify-content-center" id="grid">
+                <p>Developer</p>
+            </div>
+            <div class="col-sm-2 text-light hover-shadow align-items-center justify-content-center" id="grid">
+                <p>Designer</p>
+            </div>
+        </div>
+        <!-- ............................... -->
+
+    </div>
+    <div id="contact" class="container-fluid bg-warning" style="height: 450px;margin-bottom: 15px;padding: 40px;">
+        <div style="height: 15%;">
+            <p>Contact</p>
+        </div>
+        <div class="row" style="height: 85%;;">
+            <p style="padding-left: 40px;">Send Message</p>
+            <div class="col d-flex flex-column h-100"
+                style="display:inline-block;justify-content: space-around;align-items: center;">
+                <input placeholder="Your Name" style="width: 70%;margin: 3px;"></input>
+                <input placeholder="Your Email" style="width: 70%;margin: 3px;"></input>
+                <input placeholder="Subject" style="width: 70%;margin: 3px;"> </input>
+                <textarea placeholder="Message" style="width: 70%;margin: 3px;height: 200px;"></textarea>
+
+            </div>
+            <div class="col">
+                <div>
+                    <p>Get in Touch</p>
+                </div>
+                <div>
+                    <p>329 WASHINGTON ST BOSTON, MA 02108</p>
+                    <p>(617) 557-0089</p>
+                    <p>contact@example.com</p>
+                    <div class="social-links" id="social-links">
+                        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
